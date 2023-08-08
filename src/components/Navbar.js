@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../assets/logo.png';
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaBars, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { Link } from 'react-scroll';
 import resume from '../assets/Resume.pdf'
 const Navbar = () => {
